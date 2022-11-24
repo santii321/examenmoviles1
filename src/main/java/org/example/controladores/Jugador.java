@@ -12,6 +12,15 @@ public class Jugador {
     public Jugador() {
     }
 
+    public Jugador(int id, String nombre, String apellidos, String posicionJugador, int edad, String equipoJuega) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.posicionJugador = posicionJugador;
+        this.edad = edad;
+        this.equipoJuega = equipoJuega;
+    }
+
     public int getId() {
         return id;
     }
